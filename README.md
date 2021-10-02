@@ -1,3 +1,12 @@
+# Changelog
+
+Changes by Vivek
+
+2021-10-01
+- Added another option `ssh` to only open SSH tunnel when specified
+- Added polling timeout so that it only checks for process every 10 minutes
+- Fix bug in kernelcmd command
+
 # Slurm Jupyter Kernel
 
 Create jupyter kernels and run kernels using srun
